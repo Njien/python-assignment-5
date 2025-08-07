@@ -150,7 +150,7 @@ if command == "register":
 	is_verified = False
 
 	if username in general:
-		print("can not have duplicate username\nPlease change username")
+		print(f"can not have duplicate username\n{username} already exist")
 	else:
 		if password in general:
 			print("can not have duplicate password\nPlease change password")
